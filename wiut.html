@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+	<link rel="stylesheet" media="screen and (max-device-width: 480px)" href="stylesheet.css"/>
+	
+<style>
+body{
+		margin:0;
+		padding:0;
+	}
+#wrap{
+	width:960px;
+	margin:0 auto;
+}
+#header{
+	height:150px;
+	padding:45px 0 0 0;
+}
+
+#header img{
+	float:left;
+}
+
+#nav{
+	float:center;
+	margin:50px -15px 0 0;
+}
+.menu{
+	padding:7px 6px 0 0;
+}
+.menu li{
+	margin:0 5px;
+	padding:0 0 8px;
+	float:left;
+	position:relative;
+}
+.menu a{
+	display:block;
+	padding: 8px 15px;
+	margin:0;
+	color:#555;
+	text-decoration:none;
+	font-size:20px;
+}
+
+.menu ul{
+	background:#eee;
+	display:none;
+	margin:0;
+	padding:0;
+	width:250px;
+	position:absolute;
+	top:35px;
+	left:20px;
+	border:solid 1px #ddd;
+}
+.menu ul li{
+	padding:0;
+	float: left;
+	margin-right: 30px;
+	text-decoration: none;
+	font-family: arial;
+}
+.menu ul a{
+	font-size:16px;
+}
+.menu ul ul{
+	left:250px;
+	top:-3px;
+}
+.menu li.current_page_item a{
+	color:#2684cd;
+}
+.menu .sub-menu li.current_page_item a{
+	color:#2684cd;
+}
+#featured-section{
+	float:left;
+	margin:10px 0 0 0;
+}
+#featured-section h2{
+	background:url(../images/featured-title.png) no-repeat;
+	width:953px;
+	height:56px;
+	text-indent:-9999px;
+	margin-top:0;
+}
+#circles{
+	float:left;
+	margin:10px 0 0 0;
+}
+#circles img{
+	float:left;
+	border:none !important;
+	margin:0 0 0 36px;
+	width:213px;
+	height:205px;
+}
+#featured-section .circle-red{
+	background:url(../images/circle-red.png) no-repeat;
+}
+#featured-section .circle-pink{
+	background:url(../images/circle-pink.png) no-repeat;
+}
+#featured-section .circle-orange{
+	background:url(../images/circle-orange.png) no-repeat;
+}
+#featured-section .circle-yellow{
+	background:url(../images/circle-yellow.png) no-repeat;
+}
+#featured-section .first{
+	margin-left:0;
+}
+/* ------------------ */
+/* -- Image Slider -- */
+/* ------------------ */
+#featured-section #image-slider{
+	float:left;
+	background:url(../images/img-slider-bg.png) repeat-x;
+	width:960px;
+	height:250px;
+	margin:50px 0 0 0;
+	border:1px #ddd solid;
+	background-color:#fff;
+}
+.jcarousel-container-horizontal{
+	float:left;
+	margin:15px 0 0 30px !important;
+}
+#image-slider #mycarousel li{
+	float:left;
+	width:264px;
+	height:260px;
+	margin:0 0 0 0px;
+}
+#image-slider #mycarousel li.first{
+	margin-left:0;
+}
+#image-slider #mycarousel img{
+	margin:9px 0 0 9px;
+	padding:5px;
+	border:1px #ddd solid;
+	width:240px;
+	height:165px;
+}
+.jcarousel-prev-horizontal{
+	margin:90px 0 0 -18px;
+}
+.jcarousel-next-horizontal{
+	margin:90px 50px 0 0;
+}
+.first{
+	margin-left:0;
+}
+		.header ul{
+		margin-top: 80px;
+		overflow:hidden;
+		float:right;
+		list-style:none;
+	}
+	
+	.header ul li{
+		float: left;
+		margin-right: 30px;
+	}
+	
+	.header ul li a{
+		text-decoration: none;
+		font-family: arial;
+		color: grey;
+	}
+	
+	.header li a:hover{
+		color: blue;
+	}
+</style>
+<html>
+<body>
+<div id="wrap">
+	<div id="header"> <img src="images/logo.png" />
+		<div id="nav">
+			<ul class="menu">
+				<li class="current_page_item"><a href="index.html">Home</a></li>
+				<li><a href="wiut.html">About WIUT</a>
+					<ul class="sub-menu">
+						<li><a href="#">History</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Admission</a></li>
+				<li><a href="#">Courses</a></li>
+				<li><a href="#">Staff</a></li>
+				<li><a href="#">Students</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="featured-section">
+		<h2>Westminster International University in Tashkent</h2>
+		<div id="circles"> 
+		   <img class="first" src="images/circle-red.png" />
+		   <img src="images/circle-pink.png" />
+		   <img src="images/circle-orange.png" /> 
+		   <img src="images/circle-yellow.png" /> 
+		</div>
+		<div id="image-slider">
+			<ul id="mycarousel" class="jcarousel-skin-tango">
+				<li class="first"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li class="first"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li class="first"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+				<li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

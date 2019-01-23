@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<head>
+	<title>DraftWIUT</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<style>
+body { padding-top: 70px; }
+
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(images/about_wiut.jpg) no-repeat center center scroll;
+
+}
+.navbar {
+	margin-top: 0;
+	min-height:90px !important;
+}
+
+.navbar-custom {
+  background: white;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+.navbar-custom a:focus {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  color: #001c46;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand.active {
+  color: #001c46;
+}
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: #001c46;
+}
+
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+  background: #001c46;
+}
+
+.navbar-custom .navbar-nav li.active a {
+  color: #001c46;
+  background: white;
+ }
+.navbar-custom .navbar-nav li.active a:active,
+.navbar-custom .navbar-nav li.active a:hover {
+  color: #001c46;
+  background: white;
+ }
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #001c46;
+}
+.navbar-custom .navbar-toggle .dropdown{
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: #2c3e50;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #001c46;
+  color: white;
+  border-color: #001c46;
+}
+<!-- .dropdown li.active a:hover, -->
+<!-- .dropdown li.active a:focus -->
+<!-- .dropdown li.active a:active { -->
+  <!-- color: #2C3E50; -->
+  <!-- background: #001c46; -->
+<!-- } -->
+<!-- .dropdown a:active { -->
+  <!-- color: #001c46; -->
+  <!-- background: white; -->
+ <!-- } -->
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.logo {
+	margin-bottom: 25px;
+	margin-left: 30px;
+}
+</style>
+<html>
+<body>
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse navbar-fixed">
+        <div class="container row">
+			<div class="col-sm-2 imagee">
+				<!-- <a href="#" class="navbar-left"><img src="http://www.wiut.uz/wp-content/uploads/2016/03/Logo_ORG-1.png"/></a> -->
+			</div>
+			<div class="col-sm-8">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll sr-menu">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+						</button>
+					    <a class="navbar-brand logo" rel="home" href="#" title="Buy Sell Rent Everyting">
+							<img style="max-width:300px; margin-top: -7px;"
+								src="http://www.wiut.uz/wp-content/uploads/2016/03/Logo_ORG-1.png">
+						</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About WIUT <span class="caret"></span></a>
+									
+									<ul class="dropdown-menu">
+										<li><a href="#">History</a></li>
+										<li><a href="#">Clubs</a></li>
+										<li><a href="#">Campus</a></li>
+									</ul>
+									
+									<li><a href="#">Admission</a></li>
+									<li><a href="#">Academics</a></li>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">Contact</a></li>
+						</li>
+
+					</ul>	
+
+				</div>
+			</div>
+			<div class="col-sm-2">
+					    <form class="navbar-form navbar-right">
+						  <div class="input-group">
+							<input type="text" class="form-control" placeholder="Search">
+							<div class="input-group-btn">
+							  <button class="btn btn-default" type="submit">
+								<i class="glyphicon glyphicon-search"></i>
+							  </button>
+							</div>
+						  </div>
+						</form>	
+			</div>
+				<!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+	</nav>
+	
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 class="btn-dark" style="color:white; font-family:Times News Roman;"><span>Westminster International University in Tashkent</span></h1>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Read More</a>
+        </div>
+    </header>
+	
+		<div class="jumbotron text-center">
+	  <h1>MEDIA</h1>
+	  <p>Lorem Ipsum Dolor Sit!</p> 
+	</div>
+  
+	<div class="container">
+	  <div class="row">
+		<div class="col-sm-6">
+		  <h3>Column 1</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+		  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class="col-sm-6">
+		  <h3>Column 2</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+		  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+	  </div>
+	</div>
+</body>
+</html>
